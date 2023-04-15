@@ -6,19 +6,17 @@ function Navbar() {
         <>
             <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
                 <div class="container-fluid">
-                    <Link class="navbar-brand" to="/Home"><img
-                        src={img} alt="Bootstrap" width="50"
-                        height="50" /></Link>
+                    <Link class="navbar-brand" to="/Home">Truckin</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="main_nav">
+                    <div class="collapse navbar-collapse justify-content-center" id="main_nav">
                         <ul class="navbar-nav">
                             <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Home"> <b> Home
                             </b></Link>
                             </li>
-                            <li class="nav-item dropdown">
+                            {/* <li class="nav-item dropdown">
                                 <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
                                     <b> Services</b></Link>
                                 <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
@@ -36,14 +34,14 @@ function Navbar() {
                                     <li><Link class="dropdown-item" to="/Thesis"> <b> Thesis</b> </Link></li>
                                     <li><Link class="dropdown-item" to="/Article"> <b> Article</b> </Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Reviews"> <b>
                                 Reviews</b></Link>
                             </li>
                             <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Contact-us"> <b>
                                 Contact-us</b></Link>
                             </li>
-                            <li class="nav-item dropdown">
+                            {/* <li class="nav-item dropdown">
                                 <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
                                     <b> Sample</b></Link>
                                 <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
@@ -51,9 +49,9 @@ function Navbar() {
                                     <li><Link class="dropdown-item" to="/Assignment_Solution"> <b> Assignment Solution</b>
                                     </Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Experts"> <b>
-                                Experts</b></Link></li>
+                                Place Order</b></Link></li>
                         </ul>
 
                         {/* <ul class="navbar-nav ms-auto">
@@ -70,7 +68,7 @@ function Navbar() {
 
                     </div>
                 </div>
-            </nav><br /><br /><br />
+            </nav>
         </>
     )
 }
