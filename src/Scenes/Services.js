@@ -7,7 +7,7 @@ function Services() {
     <>
       <Navbar />
       <div class="container my-2"></div>
-      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
         <div class="container">
           <div class="row">
             <div class="col-9">
@@ -128,7 +128,7 @@ function Services() {
           </div>
         </div>
       </div><br />
-      <div style={{ backgroundColor: 'rgb(138, 46, 46)' }} ><br /><br />
+      <div style={{ backgroundColor: '#FEBD59' }} ><br /><br />
         <div class="container">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">

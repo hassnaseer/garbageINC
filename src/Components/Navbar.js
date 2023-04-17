@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
-            <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+            <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: '#FEBD59' }}>
                 <div class="container-fluid">
-                    <Link class="navbar-brand" to="/Home">Truckin</Link>
+                    <Link class="navbar-brand" to="/Home"><span>Truckin</span></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -19,9 +19,9 @@ function Navbar() {
                             {/* <li class="nav-item dropdown">
                                 <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
                                     <b> Services</b></Link>
-                                <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+                                <ul class="dropdown-menu" style={{ backgroundColor: '#FEBD59' }}>
                                     <li><Link class="dropdown-item" to="/Assignment"> <b> Assignment </b></Link>
-                                        <ul class="submenu dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+                                        <ul class="submenu dropdown-menu" style={{ backgroundColor: '#FEBD59' }}>
                                             <li><Link class="dropdown-item" to="/Computer_Science"> <b> Computer Science
                                             </b></Link></li>
                                             <li><Link class="dropdown-item" to="/Finance"> <b> Finance</b></Link></li>
@@ -44,7 +44,7 @@ function Navbar() {
                             {/* <li class="nav-item dropdown">
                                 <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
                                     <b> Sample</b></Link>
-                                <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+                                <ul class="dropdown-menu" style={{ backgroundColor: '#FEBD59' }}>
                                     <li><Link class="dropdown-item" to="/Sample_design"> <b> Sample Design</b> </Link></li>
                                     <li><Link class="dropdown-item" to="/Assignment_Solution"> <b> Assignment Solution</b>
                                     </Link></li>

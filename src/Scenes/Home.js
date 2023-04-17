@@ -29,9 +29,9 @@ function Home() {
             <Navbar />
             <div>
                 <div class="container my-2"></div>
-                <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
-                    <div class="container my-2">
-                        <div class="row">
+                <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
+                    <div class="container my-5">
+                        <div class="row py-5">
                             <div class="col"><br /><br />
                                 <h1 class="display-6" style={{ color: 'white' }}> <b> Facing Difficulties With Your <br /> Online
                                     Exams/Assignments?
@@ -786,7 +786,7 @@ function Home() {
                 </div>
             </div>
             <div class="container">
-                <h4 style={{ margin: 'right 5px', marginRight: '100px', color: 'rgb(138, 46, 46)' }}>
+                <h4 style={{ margin: 'right 5px', marginRight: '100px', color: '#FEBD59' }}>
                     <b> Tell Us What You Need </b>
                 </h4>
                 <p style={{ margin: 'left 100px', marginRight: '0px' }}>Visit our <b> website </b> and
@@ -794,7 +794,7 @@ function Home() {
                     you can talk
                     to our support team and mention your requirements.
                 </p>
-                <h4 style={{ margin: 'right 5px', marginRight: '100px', color: 'rgb(138, 46, 46)' }}>
+                <h4 style={{ margin: 'right 5px', marginRight: '100px', color: '#FEBD59' }}>
                     <b> Pay For Assignment</b>
                 </h4>
                 <p style={{ margin: 'left 100px', marginRight: '0px' }}>Once you receive your quote, process your secure transaction
@@ -803,7 +803,7 @@ function Home() {
                     many options provided like apple pay, google pay, visa, Mastercard, discover, American express, Alipay and
                     many more.
                 </p>
-                <h4 style={{ margin: 'right 5px', marginRight: '100px', color: 'rgb(138, 46, 46)' }}>
+                <h4 style={{ margin: 'right 5px', marginRight: '100px', color: '#FEBD59' }}>
                     <b>Receive Completed Solution</b>
                 </h4>
                 <p style={{ margin: 'left 100px', marginRight: '0px' }}>Our <b> assignment help </b> experts start writing the papers
@@ -875,15 +875,15 @@ function Home() {
             </div>
             <div class="container my-4">
                 <div class="row">
-                    <div class="col-sm" style={{ textAlign: 'center', color: 'rgb(138, 46, 46)' }}>
+                    <div class="col-sm" style={{ textAlign: 'center', color: '#FEBD59' }}>
                         <h1>2,177,466</h1>
                         <p><b> DELIVERED ORDERS</b></p>
                     </div>
-                    <div class="col-sm" style={{ textAlign: 'center', color: 'rgb(138, 46, 46)' }}>
+                    <div class="col-sm" style={{ textAlign: 'center', color: '#FEBD59' }}>
                         <h1>5,221</h1>
                         <p><b> EXPERTS</b></p>
                     </div>
-                    <div class="col-sm" style={{ textAlign: 'center', color: 'rgb(138, 46, 46)' }}>
+                    <div class="col-sm" style={{ textAlign: 'center', color: '#FEBD59' }}>
                         <h1>4.9/5</h1>
                         <p><b> CLIENT RATING</b></p>
                     </div>
