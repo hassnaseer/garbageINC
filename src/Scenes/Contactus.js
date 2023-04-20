@@ -1,6 +1,6 @@
 import React from 'react'
-import img from '../Images/contact-us-3483604-2912020.webp';
-import img1 from '../Images/whatsapp-2317203__340.webp';
+import img from '../Images/Images1/contact-us-header (1).webp';
+import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer';
 
@@ -10,75 +10,56 @@ function Contactus() {
       <Navbar />
       <div class="container my-2"></div>
       <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
-        <div class="container my-2">
-          <div class="row">
-            <div class="col-9">
-              <div class="container my-lg-5"></div>
-              <h1 style={{ color: 'white' }}> <b> Contact Us With Our Professional!
-
-              </b></h1>
-            </div>
-            <div class="col">
-              <img src={img} class="img-fluid" alt="..." />
-            </div>
-          </div>
-        </div>
+        <img src={img} class="img-fluid" alt="Responsive image"></img>
       </div><br />
-      <div class="container my-2" style={{ textAlign: 'center' }}>
-        <h1><b> Contact Us</b></h1><br />
-        <p class="text-left">Get in touch and a member of Tech Solutions Pro will always be here and happy to help.
-          Feel free to contact us by Facebook, Instagram or by email and we will be sure to get back to you as
-          soon as possible. We are one click away.</p>
+      <div class="container my-2">
+        <h1 className="display-1"> <b> Contact us</b></h1>
       </div>
-      <div class="container my-2 ">
-        <div class="row">
-          <div class="col">
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g john" />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                  placeholder="e.g @example.com" />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">Your Task</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>Assignment</option>
-                  <option>Paper</option>
-                  <option>Quiz</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Phone</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                  placeholder="e.g +12345678" />
-              </div>
-
-              <form method="post">
-                <div class="form-group">
-                  <label class="control-label" for="date">Deadline</label>
-                  <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
-                </div>
-              </form>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">About Your Task</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <div class="form-group">
-                <button class="btn btn-danger" name="submit" type="submit">Submit</button>
-              </div>
-            </form>
+      <div className="container bg-warning">
+        <div className="row">
+          <div className="col text-center"><br /><br />
+            <h4>YOUR CONVENIENCE <br />
+              IS OUR #1 PRIORITY</h4>
+            <hr />
+            <h5 >Head Office</h5>
+            <h5>LOGITY DISPATCH
+              3524 SILVERSIDE RD STE 35B WILMINGTON, DE 19810-4929ch.</h5>
+            <h5>Phone</h5><Link to="tel:+15645446567" class="link-danger">+ 1 564-544-6567
+            </Link>
+            <h5>Email:</h5> <Link to="mailto: educationhelp721@gmail.com"
+              class="link-danger text-decoration-none ">educationhelp721@gmail.com
+            </Link>
           </div>
-          <div class="col" >
-            <a href="https://chatwith.io/s/642c1d420fe9d" target="_blank" title="" rel="noreferrer"><img src={img1} class="img-responsive"/></a>
+          <div class="vr" style={{ height: '410px' }}></div>
+          <div className="col">
+            <div className="m-4">
+              <form action="/examples/actions/confirmation.php" method="post">
+                <div className="mb-3">
+                  <label className="form-label" for="inputEmail">Full Name</label>
+                  <input type="full name" className="form-control" id="inputEmail" required />
+                </div>
+                <div className="mb-3">
+                  <label className="form-label" for="inputPassword">Phone number</label>
+                  <input type="password" className="form-control" id="inputPassword" required />
+                </div>
+                <div className="mb-3">
+                  <label className="form-label" for="inputEmail">Email</label>
+                  <input type="full name" className="form-control" id="inputEmail" required />
+                </div>
+                <div className="mb-3">
+                  <div className="form-check">
+                    <input className="form-check-input" type="checkbox" id="checkRemember" />
+                    <label className="form-check-label" for="checkRemember">I have read and agree to Terms of Service</label>
+                  </div>
+                </div>
+                <button type="submit" className="btn btn-warning">Send Request</button>
+              </form>
+            </div>
           </div>
         </div>
-
       </div>
-      <Footer/>
+
+      <Footer />
     </>
   )
 }

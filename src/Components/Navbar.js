@@ -6,14 +6,14 @@ function Navbar() {
         <>
             <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: '#FEBD59' }}>
                 <div class="container-fluid">
-                    <Link class="navbar-brand" to="/Home"><span>Truckin</span></Link>
+                    <Link class="navbar-brand" to="/About"><span>Truckin</span></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="main_nav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Home"> <b> Home
+                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/About"> <b> About
                             </b></Link>
                             </li>
                             {/* <li class="nav-item dropdown">
@@ -35,8 +35,8 @@ function Navbar() {
                                     <li><Link class="dropdown-item" to="/Article"> <b> Article</b> </Link></li>
                                 </ul>
                             </li> */}
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Reviews"> <b>
-                                Reviews</b></Link>
+                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Services"> <b>
+                                Services</b></Link>
                             </li>
                             <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Contact-us"> <b>
                                 Contact-us</b></Link>
@@ -50,8 +50,8 @@ function Navbar() {
                                     </Link></li>
                                 </ul>
                             </li> */}
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Experts"> <b>
-                                Place Order</b></Link></li>
+                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/FAQ"> <b>
+                                FAQ</b></Link></li>
                         </ul>
 
                         {/* <ul class="navbar-nav ms-auto">

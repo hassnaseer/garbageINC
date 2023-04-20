@@ -1,164 +1,140 @@
 import React from 'react'
-import img from '../Images/svgexport-1.png'
+import img from '../Images/Images1/Services.webp'
+import img1 from '../Images/Images1/Truck Dispatching.webp'
+import img2 from '../Images/Images1/Billing.webp'
+import img3 from '../Images/Images1/Document Management.webp'
+import img4 from '../Images/Images1/Factoring Service.webp'
+import img5 from '../Images/Images1/Rate negotiation.webp'
+import img6 from '../Images/Images1/Safety dot compliance.webp'
+import img7 from '../Images/Images1/Ifta.webp'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 function Services() {
   return (
     <>
-      <Navbar />
-      <div class="container my-2"></div>
-      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
-        <div class="container">
-          <div class="row">
-            <div class="col-9">
-              <div class="container my-lg-5"></div>
-              <h1 style={{ color: 'white' }}> <b>Our Services
+      <Navbar /><br /><br />
+      <div class="jumbotron jumbotron-fluid">
+        <div class="">
+          <img src={img} class="img-fluid" alt="..."></img>
 
-              </b></h1>
-              <p style={{ color: 'white' }}>Order now and get professional help</p>
-            </div>
-            <div class="col">
-              <img src={img} class="img-fluid" alt="..." />
-            </div>
+        </div>
+      </div>
+      <div className="container ">
+        <h1 class="display-4 "> <b> Our Services</b></h1>
+
+      </div><br />
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <img src={img1} class="img-fluid" alt="..."></img>
+          </div>
+          <div className="col">
+            <hr />
+            <h1>01</h1>
+            <h1>Truck Dispatching</h1>
+            <h5>Truck Dispatching:</h5>
+            <p>Keeping Your Business Moving So You Can Focus on Driving.
+              Here at Logity Dispatch, we are proud to be the truck dispatcher company you can rely on.</p>
+            <hr />
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <h1><b> WHO ARE WE?</b></h1>
-      </div><br />
-      <div class="container">
-        <div class="text-center">
-          <p> Educationhelp24 is the leading assignment help provider worldwide. We have an exclusive assignment help
-            service for students who are pursuing their degrees in Universities of various fields.
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <hr />
+            <h1>02</h1>
+            <h1>Billing</h1>
 
-            We have a team of assignment writing experts from top universities to help these students in the best
-            possible manner. Each of these academic writers possesses extensive knowledge and expertise. They draft
-            top-notch and plagiarism-free assignments.
-          </p>
+            <p>Trucking accounting company to keep you and your truck on the road.
+              While you are out there on the road, we give all the necessary support and assistance to get the job done the right way, time and time again.</p>
+            <hr />
+          </div>
+          <div className="col">
+            <img src={img2} class="img-fluid" alt="..."></img>
+          </div>
         </div>
-      </div><br />
-      <div class="text-center">
-        <h1><b> SERVICES THAT WE OFFER?​</b></h1>
-      </div><br />
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Graphic Design</b></h5>
-                <p class="card-title text-center"> Provide all Illustration and design with best creativity</p>
-              </div>
-            </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <img src={img3} class="img-fluid" alt="..."></img>
           </div>
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Online homework assignment help</b></h5>
-                <p class="card-title text-center"> We will write Your assignment solution </p>
-              </div>
-            </div>
+          <div className="col">
+            <hr />
+            <h1>03</h1>
+            <h1>Document Management
+              & Paperwork</h1>
+            <p>We offer an extensive range of solutions for truckers and trucking companies.
+              Including dispatch services dedicated to providing you invaluable support.</p>
+            <hr />
           </div>
-          <div class="col">
-            <div class="card h-20">
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <hr />
+            <h1>04</h1>
+            <h1>Factoring service</h1>
 
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Web development</b></h5>
-                <p class="card-title text-center"> All WordPress, Wix and custom coding with frontend and backend
-                  Functionalities</p>
-              </div>
-            </div>
+            <p>As with any important business decision, whether you decide to use a truck factoring service depends on your business model, scale of operations, and how much risk you want to assume.</p>
+            <hr />
+          </div>
+          <div className="col">
+            <img src={img4} class="img-fluid" alt="..."></img>
           </div>
         </div>
-      </div><br />
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Brand strategy</b></h5>
-                <p class="card-title text-center">We provide and plan your business strategy</p>
-              </div>
-            </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <img src={img5} class="img-fluid" alt="..." ></img>
           </div>
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Consultant</b></h5>
-                <p class="card-title text-center">We will help you in selection of your course</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Custom essay writing help</b></h5>
-                <p class="card-title text-center">We will write essay for you</p>
-              </div>
-            </div>
+          <div className="col">
+            <hr />
+            <h1>05</h1>
+            <h1>Rate negotiation</h1>
+            <p>Our services go far beyond simple average rate negotiation,
+              and we help you position your operation and your brand at the forefront of the market.
+              We’ll take care of everything. All you need to do is drive.</p>
+            <hr />
           </div>
         </div>
-      </div><br />
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Paper solve</b></h5>
-                <p class="card-title text-center"> We will solve your final’s and mid paper with proper work and
-                  grades </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-20">
-              <div class="card-body">
-                <h5 class="card-title text-center"><b> Coursework help</b></h5>
-                <p class="card-title text-center"> We will help you in your course work </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-20">
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <hr />
+            <h1>06</h1>
+            <h1>SAFETY / DOT compliance</h1>
 
-              <div class="card-body">
-                <h5 class="card-title text-center"><b>Quiz</b></h5>
-                <p class="card-title text-center"> We will also solve your Quiz </p>
-              </div>
-            </div>
+            <p>No one likes paperwork, and it can be hard to keep up with all the changes. Worst of all, mistakes or omissions can result in costly penalties. Thankfully, Logity Dispatch has your solution.</p>
+            <hr />
+          </div>
+          <div className="col">
+            <img src={img6} class="img-fluid" alt="..."></img>
           </div>
         </div>
-      </div><br />
-      <div style={{ backgroundColor: '#FEBD59' }} ><br /><br />
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-20">
-                <div class="card-body">
-                  <h5 class="card-title"><b> 24/7 Help</b></h5>
-                  <p class="card-text">Click edit button to change this text. Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-20">
-                <div class="card-body">
-                  <h5 class="card-title"><b> On Time Delivery​</b></h5>
-                  <p class="card-text">Click edit button to change this text. Lorem ipsum dolor sit amet
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-20">
-                <div class="card-body">
-                  <h5 class="card-title"><b> Unlimited Revision</b></h5>
-                  <p class="card-text">Click edit button to change this text. Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <img src={img7} class="img-fluid" alt="..." ></img>
           </div>
-        </div><br /><br /><br />
-      </div><br /><br /><br />
+          <div className="col">
+            <hr />
+            <h1>07</h1>
+            <h1>IFTA</h1>
+            <h4>If your vehicle:</h4>
+            <p>
+              -is used to transport people or property;<br />
+              -has three or two axles as well as an actual or registered gross vehicle weight that exceeds 26,000 lbs. (11,797 kgs) — or if in combination the actual or registered gross vehicle weight is more than 26,000 lbs. (11,797 kgs).
+              You must submit the IFTA quarterly fuel report.</p>
+            <hr />
+          </div>
+        </div>
+      </div><br /><br />
       <Footer />
     </>
   )
