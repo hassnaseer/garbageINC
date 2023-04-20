@@ -116,7 +116,7 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <a href=""> <div className=" card text-white" style={{ maxHeight: '25rem' }}>
+                        <a href="/"> <div className=" card text-white" style={{ maxHeight: '25rem' }}>
                             <img src={img2} className="img-fluid" alt="Responsive image" width={'100%'} />
                             <div className="card-img-overlay">
                                 <h1 className="card-title"> <b> 01</b></h1>
