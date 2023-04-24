@@ -17,6 +17,7 @@ import Statistics from './Scenes/Statistics';
 import Sample_Design from './Scenes/Sample_Design'
 import Sample from './Scenes/Sample';
 import Assignment_Solution from './Scenes/Assignment_Solution'
+import FAQ from './Scenes/FAQ'
 import Whatsappicon from './Scenes/Whatsappicon';
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route exact path='/About' element={<About />} />
           <Route path='/reviews' element={<Reviews />} />
           <Route path='/contact-us' element={<Contactus />} />
+          <Route path='/FAQ' element={<FAQ />} />
           <Route path='/experts' element={<Experts />} />
           <Route path='/services' element={<Services />} />
           <Route path='/assignment' element={<Assignment />} />

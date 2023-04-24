@@ -7,7 +7,7 @@ import Footer from '../Components/Footer';
 function Contactus() {
   return (
     <>
-      <Navbar />
+      <Navbar /><br /><br /><br /><br /><br />
       <div class="container my-2"></div>
       <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
         <img src={img} class="img-fluid" alt="Responsive image"></img>
@@ -15,7 +15,7 @@ function Contactus() {
       <div class="container my-2">
         <h1 className="display-1"> <b> Contact us</b></h1>
       </div>
-      <div className="container bg-warning">
+      <div className="container">
         <div className="row">
           <div className="col text-center"><br /><br />
             <h4>YOUR CONVENIENCE <br />
@@ -24,13 +24,13 @@ function Contactus() {
             <h5 >Head Office</h5>
             <h5>LOGITY DISPATCH
               3524 SILVERSIDE RD STE 35B WILMINGTON, DE 19810-4929ch.</h5>
-            <h5>Phone</h5><Link to="tel:+15645446567" class="link-danger">+ 1 564-544-6567
+            <h5>Phone</h5><Link to="tel:+15645446567" class="link-danger">
             </Link>
             <h5>Email:</h5> <Link to="mailto: educationhelp721@gmail.com"
-              class="link-danger text-decoration-none ">educationhelp721@gmail.com
+              class="link-danger text-decoration-none ">
             </Link>
           </div>
-          <div class="vr" style={{ height: '410px' }}></div>
+          {/* <div class="vr" style={{ height: '410px' }}></div> */}
           <div className="col">
             <div className="m-4">
               <form action="/examples/actions/confirmation.php" method="post">

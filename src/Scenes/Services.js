@@ -12,13 +12,10 @@ import Footer from '../Components/Footer'
 function Services() {
   return (
     <>
-      <Navbar /><br /><br />
+      <Navbar /><br /><br /><br /><br /> <br />
       <div class="jumbotron jumbotron-fluid">
-        <div class="">
-          <img src={img} class="img-fluid" alt="..."></img>
-
-        </div>
-      </div>
+        <img src={img} class="img-fluid" alt="..."></img>
+      </div><br /><br />
       <div className="container ">
         <h1 class="display-4 "> <b> Our Services</b></h1>
 

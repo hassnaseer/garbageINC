@@ -1,12 +1,14 @@
 import React from 'react'
-import img from '../Images/logo3.jpg';
+
+import img1 from '../Images/Images1/logo 12.png'
 import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
             <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: '#FEBD59' }}>
                 <div class="container-fluid">
-                    <Link class="navbar-brand" to="/About"><span>Truckin</span></Link>
+                    <Link class="navbar-brand" to="/Home">
+                        <img class="mx-5" src={img1} width="40" height="40" alt="" /></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
