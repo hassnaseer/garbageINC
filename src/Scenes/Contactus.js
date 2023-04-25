@@ -7,7 +7,7 @@ import Footer from '../Components/Footer';
 function Contactus() {
   return (
     <>
-      <Navbar /><br /><br /><br /><br /><br />
+      <Navbar /><br /><br /><br />
       <div class="container my-2"></div>
       <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
         <img src={img} class="img-fluid" alt="Responsive image"></img>

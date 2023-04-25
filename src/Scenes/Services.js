@@ -12,7 +12,7 @@ import Footer from '../Components/Footer'
 function Services() {
   return (
     <>
-      <Navbar /><br /><br /><br /><br /> <br />
+      <Navbar /><br /><br /><br />
       <div class="jumbotron jumbotron-fluid">
         <img src={img} class="img-fluid" alt="..."></img>
       </div><br /><br />

@@ -6,7 +6,7 @@ import Navbar from "../Components/Navbar";
 export default function App() {
     return (
         <>
-            <Navbar /><br /><br /><br /><br /><br />
+            <Navbar /><br /><br /><br />
             <div class="jumbotron jumbotron-fluid">
                 <img src={img} class="img-fluid" alt="..." ></img>
             </div><br />

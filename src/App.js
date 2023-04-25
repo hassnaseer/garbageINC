@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './Scenes/About';
+import Home from './Scenes/Home'
 import Services from './Scenes/Services';
 import Reviews from './Scenes/Reviews';
 import Contactus from './Scenes/Contactus';
@@ -27,6 +28,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<About />} />
+          <Route exact path='/Home' element={<Home />} />
           <Route exact path='/About' element={<About />} />
           <Route path='/reviews' element={<Reviews />} />
           <Route path='/contact-us' element={<Contactus />} />

@@ -59,12 +59,9 @@ function Navbar() {
                         {/* <ul class="navbar-nav ms-auto">
                             <form class="form-inline my-2 my-lg-0">
                                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
                             </form>
                             <div class="mx-2">
-                                <button class="btn btn-danger" data-toggle="modal" data-target="#LoginModal">Login</button>
-                                <button class="btn btn-danger" data-toggle="modal" data-target="#SignupModal">Signup</button>
-
+                                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
                             </div>
                         </ul> */}
 
