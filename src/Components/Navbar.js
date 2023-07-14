@@ -1,11 +1,11 @@
 import React from 'react'
 
-import img1 from '../Images/Images1/logo 12.png'
+import img1 from '../Images/logo.png'
 import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
-            <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: '#FEBD59' }}>
+            <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: '#41C1BA' }}>
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/Home">
                         <img class="mx-5" src={img1} width="40" height="40" alt="" /></Link>
@@ -21,9 +21,9 @@ function Navbar() {
                             {/* <li class="nav-item dropdown">
                                 <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
                                     <b> Services</b></Link>
-                                <ul class="dropdown-menu" style={{ backgroundColor: '#FEBD59' }}>
+                                <ul class="dropdown-menu" style={{ backgroundColor: '#41C1BA' }}>
                                     <li><Link class="dropdown-item" to="/Assignment"> <b> Assignment </b></Link>
-                                        <ul class="submenu dropdown-menu" style={{ backgroundColor: '#FEBD59' }}>
+                                        <ul class="submenu dropdown-menu" style={{ backgroundColor: '#41C1BA' }}>
                                             <li><Link class="dropdown-item" to="/Computer_Science"> <b> Computer Science
                                             </b></Link></li>
                                             <li><Link class="dropdown-item" to="/Finance"> <b> Finance</b></Link></li>
@@ -41,12 +41,12 @@ function Navbar() {
                                 Services</b></Link>
                             </li>
                             <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Contact-us"> <b>
-                                Contact-us</b></Link>
+                            Scrape Rates</b></Link>
                             </li>
                             {/* <li class="nav-item dropdown">
                                 <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
                                     <b> Sample</b></Link>
-                                <ul class="dropdown-menu" style={{ backgroundColor: '#FEBD59' }}>
+                                <ul class="dropdown-menu" style={{ backgroundColor: '#41C1BA' }}>
                                     <li><Link class="dropdown-item" to="/Sample_design"> <b> Sample Design</b> </Link></li>
                                     <li><Link class="dropdown-item" to="/Assignment_Solution"> <b> Assignment Solution</b>
                                     </Link></li>

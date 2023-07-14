@@ -7,7 +7,7 @@ function Paper() {
     return (
         <>
             <Navbar />
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#41C1BA' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">

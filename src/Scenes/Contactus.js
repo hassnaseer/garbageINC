@@ -9,7 +9,7 @@ function Contactus() {
     <>
       <Navbar /><br /><br /><br />
       <div class="container my-2"></div>
-      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#FEBD59' }}>
+      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#41C1BA' }}>
         <img src={img} class="img-fluid" alt="Responsive image"></img>
       </div><br />
       <div class="container my-2">

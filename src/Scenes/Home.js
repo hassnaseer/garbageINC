@@ -23,100 +23,9 @@ import Whatsappicon from './Whatsappicon';
 function Home() {
     return (
         <>
-            <Navbar /><br /><br /><br />
-            <div class="jumbotron jumbotron-fluid">
-
-                <h1 class="display-4"><img src={img} class="img-fluid" alt="..." height={'20px'} width={'2000px'} /></h1>
-            </div>
-            {/* <div>
-                <div class="card bg-dark text-white">
-                    <img src={img2} class="img-fluid" alt="Responsive image" />
-                    <div class="card-img-overlay">
-                        <h5 class="card-title"><div className="container"><div className="row">
-                            <div className="col"><br /><br /><br /><br /><br /><br />
-                                <h1> <b>  Freight <br /> Dispatch <br /> Service</b></h1>
-                            </div>
-                            <div className="col"><br />
-                                <div className="m-4">
-                                    <form action="/examples/actions/confirmation.php" method="post">
-                                        <div className="mb-3">
-                                            <label className="form-label" for="inputEmail">Full Name</label>
-                                            <input type="full name" className="form-control" id="inputEmail" required />
-                                        </div>
-                                        <div className="mb-3">
-                                            <label className="form-label" for="inputPassword">Phone number</label>
-                                            <input type="password" className="form-control" id="inputPassword" required />
-                                        </div>
-                                        <div className="mb-3">
-                                            <label className="form-label" for="inputEmail">Email</label>
-                                            <input type="full name" className="form-control" id="inputEmail" required />
-                                        </div>
-                                        <div className="mb-3">
-                                            <div className="form-check">
-                                                <input className="form-check-input" type="checkbox" id="checkRemember" />
-                                                <label className="form-check-label" for="checkRemember">I have read and agree to Terms of Service</label>
-                                            </div>
-                                        </div>
-                                        <button type="submit" className="btn btn-warning">Sign in</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div></div> </h5>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div> */}
-            {/* <div className="container">
-                <div className="row">
-                    <div className="col"><br /><br /><br /><br /><br /><br />
-                        <h1> <b>  Freight <br /> Dispatch <br /> Service</b></h1>
-                    </div>
-                    <div className="col"><br />
-                        <div className="m-4">
-                            <form action="/examples/actions/confirmation.php" method="post">
-                                <div className="mb-3">
-                                    <label className="form-label" for="inputEmail">Full Name</label>
-                                    <input type="full name" className="form-control" id="inputEmail" required />
-                                </div>
-                                <div className="mb-3">
-                                    <label className="form-label" for="inputPassword">Phone number</label>
-                                    <input type="password" className="form-control" id="inputPassword" required />
-                                </div>
-                                <div className="mb-3">
-                                    <label className="form-label" for="inputEmail">Email</label>
-                                    <input type="full name" className="form-control" id="inputEmail" required />
-                                </div>
-                                <div className="mb-3">
-                                    <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" id="checkRemember" />
-                                        <label className="form-check-label" for="checkRemember">I have read and agree to Terms of Service</label>
-                                    </div>
-                                </div>
-                                <button type="submit" className="btn btn-warning">Sign in</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            <div className="container">
-                <h3>Home</h3>
-                <hr />
-            </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col"> <h1>
-                        Services <br />
-                        and pricing
-                    </h1></div>
-                    <div className="col"></div>
-                    <div className="col"><h1>
-                        From 5% <br />
-                        of gross
-
-                    </h1></div>
-                </div>
-            </div><br /><br />
-            <div class="container">
+            <Navbar />
+            <div class="container my-5 py-5">
+                <h1 className='text-center'>How it Works</h1>
                 <div class="d-lg-flex">
                     <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
                         <div class="backgroundEffect"></div>
@@ -235,7 +144,7 @@ function Home() {
                     <iframe src="https://www.youtube.com/embed/FD2ShcUtLkE" title="YouTube video" allowfullscreen></iframe>
                 </div>
             </div ><br />
-            <div className="container" style={{ backgroundColor: 'rgb(254, 189, 89)' }} >
+            <div className="container" style={{ backgroundColor: '#41C1BA' }} >
                 {/* <div class="text-center"  >
                     <h1>To work <br />not talk</h1>
                 </div><br /> */}
@@ -317,6 +226,7 @@ function Home() {
                 </div>
             </div><br /><br /><br />
             <div class="container">
+                <h1 className='text-center'>What we Offer</h1>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="content"> <Link href="/">

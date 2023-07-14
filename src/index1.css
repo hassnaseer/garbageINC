@@ -29,7 +29,7 @@ p {
     width: 100%;
     position: absolute;
     z-index: -1;
-    background: #febd59;
+    background: #41C1BA;
     animation: popBackground 0.3s ease-in
 }
 
@@ -76,7 +76,7 @@ p {
     justify-content: center;
     width: 50px;
     height: 70px;
-    background-color: #febd59;
+    background-color: #41C1BA;
     color: white;
     position: absolute;
     bottom: 0px;
@@ -110,7 +110,7 @@ p {
     align-items: center;
     justify-content: center;
     padding: 5px 10px;
-    background-color: #febd59;
+    background-color: #41C1BA;
     border-radius: 25px;
     font-size: 12px;
     border: none
@@ -118,7 +118,7 @@ p {
 
 .card:hover .content .btn {
     background: #fff;
-    color: #febd59;
+    color: #41C1BA;
     box-shadow: #0000001a 0px 3px 5px
 }
 

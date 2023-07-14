@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img from '../Images/Images1/logo.png';
+import img from '../Images/logo.png';
 import img1 from '../Images/Capture.PNG'
 import img2 from '../Images/Capture1.PNG'
 import img3 from '../Images/Capture2.PNG'
@@ -20,7 +20,7 @@ function Footer() {
                     <div className="col">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <h1 style={{ color: '#FEBD59' }}> <b> Discover </b> </h1>
+                                <h1 style={{ color: '#41C1BA' }}> <b> Discover </b> </h1>
                                 <Link className="nav-link" to="/About"> <b> About</b></Link>
                             </li>
                             <li className="nav-item">
@@ -28,7 +28,7 @@ function Footer() {
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Contact-us"> <b> Contact-us</b></Link>
+                                <Link className="nav-link" to="/Contact-us"> <b> Scrape Rates</b></Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/FAQ"> <b> FAQ</b></Link>
@@ -36,7 +36,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="col">
-                        <h1 style={{ color: '#FEBD59' }}><b>Contact</b></h1>
+                        <h1 style={{ color: '#41C1BA' }}><b>Contact</b></h1>
                         <h4><img src={img1} alt="" /><Link to="tel:+15645446567" className="link-danger">
                         </Link></h4>
                         <h4><img src={img2} alt="" /><Link to="https://chatwith.io/s/642c1d420fe9d" target="_blank"
@@ -48,7 +48,7 @@ function Footer() {
 
                     </div>
                     <div className="col">
-                        <h1 style={{ color: '#FEBD59' }}> <b> Newsletter</b></h1>
+                        <h1 style={{ color: '#41C1BA' }}> <b> Newsletter</b></h1>
                         <form>
                             <div className="form-group row">
 
